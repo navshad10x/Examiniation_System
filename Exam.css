@@ -1,0 +1,90 @@
+
+
+body {
+	
+	
+	margin : 0;
+    padding : 0 ;
+    color : white ;
+	font-family : century Gothic ;
+  background-color: cadetblue;
+
+ 
+}
+
+.heading {
+
+  font-size: 20px;
+  margin: 1px;
+  margin-bottom: 10px;
+  padding: 1px;
+ 
+}
+
+
+.navbar {
+	
+	float : left;
+	color : white ;
+	
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 1px;
+  padding: 10px 20px;
+  border: 1px transparent #fff ;
+  transition: 0.4s ease;       
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.innerform {
+
+    margin-left: 500px;
+    margin-top: 150px;
+    border: solid 1px;
+    border: radius 5px;
+   height: 250px;
+    max-width: 300px;
+    background-color:lightgray;
+    color: black;
+   
+
+}
+
+form h3{
+
+    margin: 0%;
+    padding: 0%;
+}
+
+button{
+    margin: 1px;
+    padding: 4px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+button a{
+	
+	text-decoration: none;
+	color: black;
+}
+
+#Examination{
+
+    margin-top: 30px;
+    padding: 1px;
+}

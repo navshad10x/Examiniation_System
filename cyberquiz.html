@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Exam</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="cyberstyle.css">
+</head>
+<body>
+
+<div class="home-box custom-box    ">
+<h3>Instruction:</h3>
+<h3> Subject: Cyber Security </h3>
+<p>Total number of questions: <span class="total-questions"> 5 </span></p>
+<button type="button" class="btn" onclick="startQuiz()">Start Test</button>
+</div>
+
+
+<div class="quiz-box custom-box hide ">
+<div class="question-number">
+
+</div>
+<div class="question-text">
+
+</div>
+<div class="option-container">
+
+
+
+
+</div>
+<div class="next-question-btn">
+<button type="button" class="btn" onclick="next()">Next</button>
+</div>
+
+<div class="answers-indicator">
+
+</div>
+</div>
+
+
+
+<div class="result-box custom-box  hide ">
+<h1>Test Result</h1>
+<h3> Subject: Cyber Security </h3>
+<table>
+<tr>
+<td>Total Questions</td>
+<td><span class="total-question"></span></td>
+</tr>
+<tr>
+<td>Attempt</td>
+<td><span class="total-attempt"></span></td>
+</tr>
+<tr>
+<td>Correct</td>
+<td><span class="total-correct"></span></td>
+</tr>
+<tr>
+<td>Wrong</td>
+<td><span class="total-wrong"></span></td>
+</tr>
+<tr>
+<td>Percentage</td>
+<td><span class="percentage"></span></td>
+</tr>
+<tr>
+<td>Your Total Score</td>
+<td><span class="total-Score"></span></td>
+</tr>
+</table>
+<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+<button type="button" class="btn"><a href="Home.php">Go To Home</button></a>
+</div>
+
+<script src="cyberquestion.js"></script>
+<script src="cyberapp.js"></script>
+</body>
+</html>

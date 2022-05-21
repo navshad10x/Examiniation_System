@@ -1,0 +1,54 @@
+body {
+	
+	margin : 0px;
+	padding : 0px;
+	background-color : #5F9EA0;
+	font-family : century gothic;
+	color : white;
+
+}
+
+	
+	
+   .login{
+    Width:320px;
+    Height:250px;
+    Background:#92cfd1 ;
+    Top:25%;
+    Left:40%;
+    Position:absolute ;
+    Transform:translate (-50%, -50%);
+    Padding:70px 30px;
+	border : 1px solid;
+        
+    }
+    H1{
+    Margin:10px;
+    Padding:15px 10px;
+    Text-align:center;
+    Font-size:28px;
+	
+	
+     
+	}
+	
+	.login form {
+		
+		margin : 0;
+		padding : 0;
+		
+		
+	}
+	
+	
+    .login	p{
+    Margin:0;
+    Padding:0;
+            
+    }
+    .login input{
+    Width:100%;
+    Margin-bottom:20px;
+    }
+    
+	

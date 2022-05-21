@@ -1,0 +1,55 @@
+body {
+	
+	margin : 0px;
+	padding : 0px;
+	background-color : #5F9EA0;
+	font-family : century gothic;
+	color : white;
+
+}
+    H1{
+    Margin :10px;
+    Padding:15px 10px;
+    Text-align:center;
+    Font-size:28px;
+	
+	
+     
+	}
+
+	
+	
+   .register{
+    Width:320px;
+    Height:240px;
+    Background:#92cfd1 ;
+    Top:25%;
+    Left:40%;
+    Position:absolute ;
+    Transform:translate (-50%, -50%);
+    Padding:70px 30px;
+	border : 1px solid;
+        
+    }
+
+	
+	.register form {
+		
+		margin : 0;
+		padding : 0;
+		
+		
+	}
+	
+	
+    .register p{
+    Margin:0;
+    Padding:0;
+            
+    }
+    .register input{
+    Width:100%;
+    Margin-bottom:20px;
+    }
+    
+	
